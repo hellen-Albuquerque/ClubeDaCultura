@@ -1,0 +1,34 @@
+<div class="container">
+
+    <div class="row mt-5 mb-5">
+        <div class="col-md-8">
+            <div>
+                <div class="form-group mt-5">
+                    <label for="titulo">Nome</label>
+                    <input type="text" class="form-control" id="tipo" aria-describedby="emailHelp"
+                        placeholder="Digite aqui o seu Produto" [(ngModel)]="categoria.tipo">
+                </div>
+
+                <div class="form-group">
+                    <label for="texto">Quantidade</label>
+                    <textarea class="form-control" id="quantidade" rows="3" placeholder="Digite aqui a sua descrição"
+                        [(ngModel)]="categoria.quantidade"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="texto">Preço</label>
+                    <textarea class="form-control" id="valor" rows="3" placeholder="Digite aqui o seu tema"
+                        [(ngModel)]="categoria.valor"></textarea>
+                </div>
+
+
+
+                <div class="d-flex justify-content-end mt-3">
+                    <button type="button" class="btn btn-outline-info w-25" (click)="salvar()">Salvar</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>

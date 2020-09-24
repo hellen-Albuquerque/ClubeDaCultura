@@ -1,0 +1,91 @@
+<div class="bg1">
+
+
+    <!-----------------CONTATO------------------------------------------------->
+    <div class="container mt-10 p-5 ">
+        <h1 class="text-center">Entre em contato com a gente
+        </h1>
+    </div>
+
+
+    <!-------------FORMULÁRIO--------------------------------------------------->
+    <div class="container d-flex justify-content-center ">
+        <div class="row wpb_text_column wpb_content_element w-100 d-flex justify-content-center">
+            <div class="col-md-8 ">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Nome:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">E-mail:</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Escreva aqui:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <div class="form-group d-flex justify-content-end">
+                        <div class="btn btn-outline-success" (click)='enviar()'>Enviar
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!--------------HORÁRIO FUNCIONAMENTO------------------------>
+            <div class="col-md-4 ">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="wpb_text_column wpb_content_element">
+                            <div class="wpb_wrapper">
+                                <h4 class="">Horário de atendimento</h4>
+                                <p>Segunda à sexta-feira, das 9h às 18h</p>
+                            </div>
+
+                            <div class="wpb_wrapper">
+                                <h4>Membros do Clube</h4>
+                                <div *ngIf='logado;else deslogado'>
+                                    <a routerLink="/planos">Área do cliente</a>
+                                </div>
+                                <ng-template #deslogado>
+                                    <a routerLink="/login">Área do cliente</a>
+                                </ng-template>
+
+                            </div>
+                            <div class="wpb_wrapper ">
+                                <h4>Parceiros e fornecedores</h4>
+                                <p>contato@clubedacultura.club</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <iframe class=" wpb_wrapper w-100 h-100 "
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1353082312467!2d-46.68338588502216!3d-23.563583384681895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce579d45a95e2d%3A0x73c42dcfc196cc70!2sR.%20C%C3%B4nego%20Eug%C3%AAnio%20Leite%2C%20623%20-%203%C2%BA%20andar%20-%20Pinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005414-011!5e0!3m2!1spt-BR!2sbr!4v1599590373049!5m2!1spt-BR!2sbr"
+                    width="200" height="225" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0">
+                </iframe>
+
+                    </div>
+                </div>
+
+
+                
+
+
+            </div>
+        </div>
+
+    </div>
+    <div class="container d-flex justify-content-center p-5">
+
+
+    </div>
+</div>

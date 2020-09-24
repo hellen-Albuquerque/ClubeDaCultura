@@ -1,0 +1,19 @@
+
+.name {
+    color: rgb(126, 37, 37);
+    border-bottom: solid 1px  rgb(104, 17, 24);
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.jumbotron {
+    background-image: linear-gradient(-90deg,#f8dec5,#ffe8d2,#fcdfc5)
+
+}
+
+.tmfoto{
+    width: 160px;
+    height: 230px;
+}
+    
+

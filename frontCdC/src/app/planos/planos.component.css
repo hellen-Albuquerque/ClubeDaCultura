@@ -1,0 +1,18 @@
+.lista{
+    margin-bottom: 25px;
+    
+}
+
+.bg-warning{
+    opacity: 0.5
+}
+
+ul li{
+    margin-bottom: 20px;
+}
+.bg1{
+    background-image: linear-gradient(-90deg,#f8dec5,#ffe8d2,#fcdfc5)
+  }
+  .mt-100{
+      margin-top: 70px;
+  }
