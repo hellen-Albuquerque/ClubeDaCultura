@@ -1,4 +1,4 @@
-# ClubeDaCultura: boll
+# ClubeDaCultura
 
 ### Projeto idealizado como trabalho de conclusão de curso
 
